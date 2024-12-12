@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program Andi</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            color: #fff;
+            background: linear-gradient(135deg, #ff7eb3, #ff758c);
+            animation: gradientBg 10s infinite alternate;
+            text-align: center;
+        }
+
+        @keyframes gradientBg {
+            0% { background: linear-gradient(135deg, #ff7eb3, #ff758c); }
+            100% { background: linear-gradient(135deg, #ff758c, #f54ea2); }
+        }
+
+        h1 {
+            margin: 20px;
+            font-size: 3rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin: 15px auto;
+            width: 80%;
+            line-height: 1.6;
+        }
+
+        .animated-button {
+            display: inline-block;
+            margin: 20px auto;
+            padding: 15px 30px;
+            background: #ffffff;
+            color: #15ccff;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 30px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+            text-transform: uppercase;
+            transition: transform 0.2s, background 0.5s;
+            cursor: pointer;
+        }
+
+        .animated-button:hover {
+            transform: scale(1.1);
+            background: #000000;
+            color: #000000;
+        }
+
+        footer {
+            margin-top: 50px;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #ffced9;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Selamat Datang di Dunia Unik!</h1>
+    <p>
+        Ini adalah halaman web dengan desain animasi yang menarik dan penuh warna. Rasakan perpaduan warna yang berubah secara dinamis di latar belakang!
+    </p>
+    <button class="animated-button" onclick="alert('Terima kasih telah mengklik!')">Klik Saya</button>
+
+    <footer>
+        <p>Web ini dirancang dengan penuh ❤️ oleh <a href="#">Tim Kreatif</a></p>
+    </footer>
+</body>
+</html>
